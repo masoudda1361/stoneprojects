@@ -1,33 +1,64 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t "hello"
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t("hello") %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   "true": "foo"
-#
-# To learn more, please read the Rails Internationalization guide
-# available at https://guides.rubyonrails.org/i18n.html.
+
 
 en:
-  hello: "Hello world"
+  global:
+    menu:
+      home: "home"
+      product: "product"
+      contact: "contact"
+      Brand: "Bazargani Dastvarz"
+  pages:
+    home:
+      bazargani: "Bazargani Dastvarz"
+      discription: "we are bazargani dastvarz.we are proud to sale and export all kind of building natural stones with good heat and chemical resistance from our quarries and factories directly.we are selling all kind of granite . marbel . basalt . travertine . quartz . and nutural stones from our quarries directly.if u want to buy our products with good and competitive prices please dont hesitate to contact us directly."
+      Engineer: "Engineer Dastvarz Masoud: Ceo"
+      contact1: "Contact us"
+      person: "Contact person: Engineer Dastvarz Masoud"
+      tel: "Telfax: 00982166271253"
+      mobile: "Mobile: 00989938899470"
+      email: "Email: masouddastvarz@protonmail.com"
+      vat: "Vat number: 05590267060002"
+      branch: "There is no any branch for bazargani dastvarz"
+    product:
+      travertin1: "Travertine quarry"
+      sale1: "we are selling travertine stone from quarry directly"
+      update: "Last updated 3 mins ago"
+      marbel1: "Marbel quarry"
+      sale2: "we are selling marbel stone from quarry directly"
+      granite1: "Granite quarry"
+      sale3: "we are selling granite stone from quarry directly"
+      basalt1: "Basalt quarry"
+      sale4: "we are selling basalt stone from quarry directly"
+      natural1: "Natural stone quarries"
+      sale5: "we are selling natural stone from quarry directly"
+      quarry1: "Stone quarry"
+      travertine2: "Travertine stone"
+      marbel2: "Marbel stone"
+      granite2: "granite stone"
+      basalt2: "Basalt stone"
+      natural2: "Natural stone"
+      contact2: "Contact us"
+      person2: "Contact person: Engineer Dastvarz Masoud"
+      tel1: "Telfax: 00982166271253"
+      Mobile1: "Mobile: 00989938899470"
+      email1: "Email: masouddastvarz@protonmail.com"
+      vat2: "Vat number: 05590267060002"
+      branch2: "There is no any branch for bazargani dastvarz"
+    contact:
+      contact3: "Contact us"
+      person3: "Contact person: Engineer Dastvarz Masoud"
+      tel2: "Telfax: 00982166271253"
+      mobile3: "Mobile: 00989938899470"
+      email2: "Email: masouddastvarz@protonmail.com"
+      vat3: "Vat number: 05590267060002"
+      branch3: "there is no any branch for Bazargani Dastvarz"
+
+
+
+
+
+
+
+  locales:
+    en: "English"
+    fa: "فارسی"

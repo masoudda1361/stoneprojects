@@ -70,3 +70,6 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+gem 'bootstrap', '~> 5.3.0.alpha3'
+gem 'rubygems-update', '~> 3.4', '>= 3.4.17'
+gem 'rails-i18n', '~> 7.0', '>= 7.0.7'
