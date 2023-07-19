@@ -81,6 +81,7 @@ test:
 #
 production:
   <<: *default
+  url: <%= ENV['DATABASE_URL'] %>
   database: stoneprojects_production
   username: stoneprojects
   password: <%= ENV["STONEPROJECTS_DATABASE_PASSWORD"] %>
