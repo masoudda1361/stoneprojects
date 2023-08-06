@@ -68,7 +68,7 @@ group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem "capybara"
   gem "selenium-webdriver"
-  gem "webdrivers"
+  gem 'webdrivers', '~> 5.3', '>= 5.3.1'
 end
 gem 'bootstrap', '~> 5.3.0.alpha3'
 gem 'rubygems-update', '~> 3.4', '>= 3.4.17'
